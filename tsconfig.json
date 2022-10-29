@@ -1,0 +1,15 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "paths": {
+            "*": ["./backend/node_modules/*"]​
+        },
+        "target": "es6",
+        "outDir": "./out",
+        "module": "commonjs",
+        "moduleResolution": "node"
+    }
+}
